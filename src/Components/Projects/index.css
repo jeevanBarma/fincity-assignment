@@ -1,0 +1,37 @@
+.project-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #F9FAFF;
+}
+.project-heading{
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Playfair Display;
+    font-size: 48px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 150% */
+}
+.ul{
+    display:flex;
+    flex-direction: column;
+    
+}
+.icon-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.end-p{
+    color: var(--font-medium-emphasis, #828282);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

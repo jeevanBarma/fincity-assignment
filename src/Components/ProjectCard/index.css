@@ -1,0 +1,47 @@
+.li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.li-hw-container{
+    display: flex;
+    width: 496px;
+    height: 524px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--bg-white, #FFF);
+}
+.div{
+    display: flex;
+    width: 406.678px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.project-logo {
+    width: 496px;
+    height: 516px;
+    flex-shrink: 0;
+}
+.p{
+    align-self: stretch;
+    color: var(--font-medium-emphasis, #828282);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.view-btn{
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 24px;
+    border: 1px solid var(--font-high-emphasis, #25282B);
+    cursor: pointer;
+}

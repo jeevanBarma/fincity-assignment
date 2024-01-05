@@ -1,0 +1,117 @@
+.main-conatiner{
+    background-color: #F9FAFF;
+}
+.name-image-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name-container{
+    width: Hug (486px);
+    height: Hug (369px);
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.h4{
+    color: var(--brand-yellow, #FDC435);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.heading{
+    width: 476px;
+    height: 154px;
+    color: var(--Gray-1, #333);
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.description{
+    width: 486px;
+    color: var(--Gray-3, #828282);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    padding: 8px 24px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.project-btn{
+    border-radius: 8px;
+    background: var(--brand-yellow, #FDC435);
+    margin-right: 5px;
+    height: 35px;
+}
+.linkedin-btn{
+    border-radius: 8px;
+    border: 2px solid var(--bg-line, #25282B);
+}
+.img{
+  width: 550px; 
+}
+.add-project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 1436px;
+    height: 756px;
+}
+.add-project-heading{
+    color: var(--font-high-emphasis, #25282B);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 150% */
+}
+.label-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+.label{
+    color: var(--font-high, #25282B);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.input{
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background: var(--bg-white, #FFF);
+    width: 400px;
+    height: 40px;
+}
+.form-btn{
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: var(--brand-yellow, #FDC435);
+    border-width: 0px;
+    cursor: pointer;
+}
+.btn-c{
+    text-align: end;
+}

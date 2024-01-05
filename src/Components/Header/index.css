@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 12px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 778px;
+    flex-shrink: 0;
+}
+h1{
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+    list-style-type: none;
+} 
+ul li{
+    color: var(--font-high-emphasis, #25282B);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    cursor: pointer;
+}
